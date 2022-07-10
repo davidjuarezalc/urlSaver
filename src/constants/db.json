@@ -1,0 +1,106 @@
+{
+  "items": [
+    {
+      "name": "WCS",
+      "items": [
+        {
+          "name": "SIT1",
+          "url": "https://www.youtube.com",
+          "user": "usuario",
+          "password": "password"
+        },
+        {
+          "name": "SIT2",
+          "url": "https://www.youtube.com"
+        },
+        {
+          "name": "PPRD",
+          "url": "https://www.youtube.com",
+          "user": "usuario",
+          "password": "password"
+        }
+      ]
+    },
+    {
+      "name": "Couchbase",
+      "items": [
+        {
+          "name": "SIT1",
+          "url": "https://www.youtube.com",
+          "user": "usuario",
+          "password": "password"
+        },
+        {
+          "name": "SIT2",
+          "url": "https://www.youtube.com",
+          "user": "usuario",
+          "password": "password"
+        },
+        {
+          "name": "PPRD",
+          "url": "https://www.youtube.com",
+          "user": "usuario",
+          "password": "password"
+        },
+        {
+          "name": "HID",
+          "url": "https://www.youtube.com",
+          "user": "usuario",
+          "password": "password"
+        },
+        {
+          "name": "PROD",
+          "url": "https://www.youtube.com",
+          "user": "usuario",
+          "password": "password"
+        }
+      ]
+    },
+    {
+      "name": "Trastienda",
+      "items": [
+        {
+          "name": "SIT1",
+          "url": "https://www.youtube.com",
+          "user": "usuario",
+          "password": "password"
+        },
+        {
+          "name": "SIT2",
+          "url": "https://www.youtube.com",
+          "user": "usuario",
+          "password": "password"
+        },
+        {
+          "name": "PPRD",
+          "url": "https://www.youtube.com",
+          "user": "usuario",
+          "password": "password"
+        }
+      ]
+    },
+    {
+      "name": "Catalogo",
+      "items": [
+        {
+          "name": "SIT1",
+          "url": "https://www.youtube.com",
+          "user": "usuario",
+          "password": "password"
+        },
+        {
+          "name": "SIT2",
+          "url": "https://www.youtube.com",
+          "user": "usuario",
+          "password": "password"
+        },
+        {
+          "name": "PPRD",
+          "url": "https://www.youtube.com",
+          "user": "usuario",
+          "password": "password"
+        }
+      ]
+    }
+  ]
+}
