@@ -45,6 +45,18 @@
               user: "usuario",
               password: "password",
             },
+            {
+              name: "HID",
+              url: "https://www.youtube.com",
+              user: "usuario",
+              password: "password",
+            },
+            {
+              name: "PROD",
+              url: "https://www.youtube.com",
+              user: "usuario",
+              password: "password",
+            },
           ],
         },
         {
@@ -150,8 +162,22 @@
                 {name}
               </a>
             </td>
-            <td>{user}</td>
-            <td>{password}</td>
+            <td
+              onClick={() => {
+                navigator.clipboard.writeText(user);
+              }}
+              style={{ cursor: "pointer" }}
+            >
+              {user}
+            </td>
+            <td
+              onClick={() => {
+                navigator.clipboard.writeText(password);
+              }}
+              style={{ cursor: "pointer" }}
+            >
+              {password}
+            </td>
           </tr>
         );
       };
@@ -180,6 +206,10 @@
       const myElement = (
         <div>
           <h1 className="display-1">Accesos</h1>
+          <p>
+            Haz click sobre el nombre y contraseña para copiarlo. La URL se
+            abrirá en una pestaña nueva.
+          </p>
           <div className="row row-cols-auto">
             {data.map((seccion) => (
               <div className="col" key={seccion.name}>
